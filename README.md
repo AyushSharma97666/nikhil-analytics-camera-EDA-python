@@ -5,8 +5,10 @@ This repository contains an exploratory data analysis (EDA) project conducted in
 Project Tasks
 The following tasks were accomplished in this EDA project:
 
-Task 1: Created a DataFrame "Camera_data" using the provided "Camera.csv".
+Task 1: Created a DataFrame "Camera_data" using the provided "Camera.csv". 
+
 Task 2: Calculated the percentage of blank values in each column.
+
 Task 3: Viewed the statistical summary of the data.
 Task 4: Replaced all blank values with NaN.
 Task 5: Replaced blank values with respective column medians.
