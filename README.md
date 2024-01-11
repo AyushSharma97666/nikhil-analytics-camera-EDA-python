@@ -8,8 +8,28 @@ This repository contains an exploratory data analysis (EDA) project conducted in
   ```
   import pandas as pd 
   df = pd.read_csv('Camera.csv')
+  df
   ```
 - **Task 2:** Find the percentage of blank values in each column.
+  ```
+  (df.isnull().sum()/len(df))* 100
+  ```
+  ```
+  Model                       0.000000
+  Release date                0.000000
+  Max resolution              0.096339
+  Low resolution              5.202312
+  Effective pixels            0.000000
+  Zoom wide (W)               8.188825
+  Zoom tele (T)               0.000000
+  Normal focus range          0.000000
+  Macro focus range           0.096339
+  Storage included           12.042389
+  Weight (inc. batteries)     2.215800
+  Dimensions                  1.541426
+  Price                       0.000000
+  dtype: float64
+  ```
 - **Task 3:** View the statistical summary of the data.
 - **Task 4:** Replace all blank values with NaN.
 - **Task 5:** Replace blank values with respective column medians.
