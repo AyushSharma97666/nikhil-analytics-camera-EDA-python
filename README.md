@@ -9,7 +9,7 @@ This repository contains an exploratory data analysis (EDA) project conducted in
   import pandas as pd 
 
 df = pd.read_csv('Camera.csv')
-```
+  ```
 - **Task 2:** Find the percentage of blank values in each column.
 - **Task 3:** View the statistical summary of the data.
 - **Task 4:** Replace all blank values with NaN.
