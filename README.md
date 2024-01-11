@@ -29,7 +29,7 @@ This repository contains an exploratory data analysis (EDA) project conducted in
   df['Dimensions'] = df['Dimensions'].fillna(df['Dimensions'].median())
   df['Zoom wide (W)'] = df['Zoom wide (W)'].fillna(df['Zoom wide (W)'].median())
   df['Macro focus range'] = df['Macro focus range'].fillna(df['Macro focus range'].median())
-```
+  ```
 - **Task 6:** Add a new column "Discounted_Price" with a 5% discount on the Price column.
 ```
 df['Discounted_Price'] = df['Price'] *0.95
