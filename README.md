@@ -7,8 +7,7 @@ This repository contains an exploratory data analysis (EDA) project conducted in
 - **Task 1:** Create a DataFrame "Camera_data" using the provided "Camera.csv".
   ```
   import pandas as pd 
-
-df = pd.read_csv('Camera.csv')
+  df = pd.read_csv('Camera.csv')
   ```
 - **Task 2:** Find the percentage of blank values in each column.
 - **Task 3:** View the statistical summary of the data.
